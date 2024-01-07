@@ -1,0 +1,31 @@
+{% extends "core/base.html" %}
+
+{% block content %}
+
+<div class="d-flex flex-column justify-content-start align-items-center gap-3 mb-4 w-100 col-md-4">
+  
+  
+  
+  <div class="d-flex justify-content-center align-items-center">
+    <input type="search" id="poke-search" placeholder="Ara">
+    <button id="search-btn">
+      <i class="fa-solid fa-magnifying-glass"></i>
+    </button>
+  
+  </div>
+
+</div>
+
+
+<div class="d-flex flex-wrap justify-content-center gap-3">
+  
+{% for pokemon in pokemons  %}
+ <div class="mt-1" id="poke-card">
+  {% include "partials/_poke-card.html" %}
+ </div>
+{% endfor %}
+</div>
+
+{% endblock content %}
+
+

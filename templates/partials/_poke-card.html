@@ -1,0 +1,9 @@
+<div class="card {{pokemon.type}} mb-2 mt-1" style="width: 13rem; height: 386px;">
+  <img class="card-img-top" src={{ pokemon.img }} alt="Card image cap">
+  <div class="card-body d-flex flex-column justify-content-center align-items-center">
+    <h5 class="card-title" style="font-weight: 600;">{{ pokemon.name }}</h5>
+    <p> #{{ pokemon.pokeId }}</p>
+    <p class="card-text">{{pokemon.weight}} Kg</p>
+    <a href="#" class="btn-{{pokemon.type}}">{{ pokemon.type }}</a>
+  </div>
+</div>

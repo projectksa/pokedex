@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Croissant+One&family=Pacifico&family=Pixelify+Sans:wght@500&family=Poppins:wght@500&family=Roboto:wght@400;700&display=swap');
+
+
+* {
+  margin-top: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#poke-card:hover .card {
+  border: 2px dotted rgb(8, 201, 226);
+  transition: all ease-in-out 0.3s;
+  transform: scale(1.1);
+  cursor: pointer;
+
+}
+
+.register{
+  background-color: rgba(0, 0, 0, 0.403);
+  border-radius: 15px;
+  height: auto;
+  padding: 25px 25px;
+  width: 270px;
+  color: #F5F5F5;
+}
+
+
+
+div .lgz {
+  background-color: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(58,2,42,1) 49%, rgba(9,9,121,1) 95%, rgba(0,212,255,1) 100%);
+  letter-spacing: 5px;
+  font-weight: 600;
+  font-size: 50px;
+  font-family: 'Caveat', cursive;
+  opacity:99%;
+  background-image: 
+  linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet, red);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;  
+animation: rainbow-animation 35s linear infinite;
+
+}
+
+@keyframes rainbow-animation {
+  to {
+      background-position: 450vh;
+  }
+}
+.card {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(212, 210, 210, 0.09) 0px -3px 5px;
+}
+
+#poke-search, button{
+  
+  border: 0;
+  outline: none;
+  padding: 5px 25px;
+  background-color: #FFF;
+
+
+}
+
+
+.container-fluid {
+  background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(58,2,42,1) 49%, rgba(9,9,121,1) 95%, rgba(0,212,255,1) 100%);
+  font-family: 'Roboto', sans-serif;
+  min-height: 100dvh;
+
+}
+
+.fire{
+  background-color:#FDDFDF;
+}
+
+.btn-fire {
+  background-color: darkorange;
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 8px;
+}
+
+
+.btn-grass {
+  background-color: #198754;
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 8px;
+}
+.grass{
+  background-color: #DEFDE0;
+
+}
+
+.btn-electric {
+  background-color: rgba(240, 213, 79, 0.973);
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 8px;
+}
+
+.electric {
+  background-color: #FCF7DE;
+}
+
+
+
+.btn-water {
+  background-color: #00CEFB;
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 8px;
+}
+
+.water {
+  background-color: #DEF3FD;
+}
+
+.btn-ground {
+  background-color: #5a534c;
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 8px;
+}
+.ground {
+  background-color: #f4e7da;
+}
+
+.btn-rock {
+  background-color: #5e5e5d;
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 8px;
+}
+
+.rock {
+  background-color: #d5d5d4;
+}
+
+.btn-fairy {
+  background-color: #e075f3;
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 8px;
+}
+
+.fairy {
+  background-color:#fceaff;
+}
+
+.btn-poison {
+  background-color: #714e99;
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 8px;
+}
+
+
+.poison {
+  background-color: #d6b3ff;
+}
+
+.btn-bug {
+  background-color: #866a43;
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 8px;
+}
+
+.bug {
+  background-color: #f8d5a3;
+}
+
+.btn-dragon {
+  background-color: #2b4d8b;
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 8px;
+}
+
+
+.dragon {
+  background-color: #97b3e6;
+}
+
+.btn-psychic {
+  background-color: #7e8319;
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 8px;
+}
+.psychic {
+  background-color: #eaeda1;
+}
+.btn-flying {
+  background-color: rgb(122, 128, 23);
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 8px;
+}
+
+.flying{
+  background-color: #F5F5F5;
+}
+
+.btn-fighting {
+  background-color: #a87e29;
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 8px;
+}
+
+.fighting{
+  background-color: #E6E0D4;
+}
+
+.btn-normal {
+  background-color: #a3a2a2;
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 8px;
+}
+
+.btn-ghost {
+  background-color: #5757c2;
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 8px;
+}
+
+
+.normal{
+  background-color: #F5F5F5;
+}
+
+.btn-ice {
+  background-color: #7bd0f5;
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 8px;
+}
+
+.ice {
+  background-color: #e0f5ff;
+}

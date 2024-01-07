@@ -1,0 +1,20 @@
+{% extends "core/base.html" %}
+{% load static %}
+{% block content %}
+ 
+   <h1 style="color: white; letter-spacing: 10px;">~ GİRİŞ YAP ~</h1>
+   <div class="container d-flex justify-content-center align-items-center register">
+   <div class="register-form d-flex justify-content-center align-items-center">
+   <form method="POST">
+    {% csrf_token %}
+     {{form}}
+     
+     <input class="btn btn-primary w-100 mt-2" type="submit" name="Üye Ol" value="Giriş Yap">
+   
+   </form>
+   </div>
+   </div>
+    
+    
+  
+{% endblock content %}

@@ -1,0 +1,19 @@
+{% if request.user.is_authenticated %}
+<div class="d-flex justify-content-between align-items-center w-100 "> 
+  <h4 class="lgz ms-3"><a style="text-decoration: none;" href={% url "index_page" %} >pokedex</a></h4>
+
+  <div class="login">
+    <a href={% url "index_page" %} class="btn btn-primary" type=> {{ user.username }}</a>
+    <a href={% url "logout_page" %} class="btn btn-warning" type=>Çıkış</a>
+  </div>
+</div>
+{% else %}
+<div class="d-flex justify-content-between align-items-center w-100 "> 
+  <h4 class="lgz ms-3"><a style="text-decoration: none;" href={% url "index_page" %} >pokedex</a></h4>
+
+  <div class="login">
+    <a href={% url "login_page" %} class="btn btn-primary" type=>Giriş Yap</a>
+    <a href={% url "register_page" %} class="btn btn-warning" type=>Üye Ol</a>
+  </div>
+</div>
+{% endif %}
